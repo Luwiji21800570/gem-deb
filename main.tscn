@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://b5ti6rxvu84im"]
+
+[ext_resource type="Texture2D" uid="uid://ckfre3hgqfny3" path="res://Killua_Zoldyck.png" id="1_0xm2m"]
+[ext_resource type="Script" uid="uid://lcu1fh6qfo7x" path="res://sprite_2d.gd" id="1_ig7tw"]
+
+[node name="main" type="Node2D"]
+
+[node name="Hello" type="Label" parent="."]
+offset_right = 163.0
+offset_bottom = 143.0
+text = "Hello world"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_0xm2m")
+script = ExtResource("1_ig7tw")
